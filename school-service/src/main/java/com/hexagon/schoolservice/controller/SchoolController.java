@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hexagon.schoolservice.SchoolService;
 import com.hexagon.schoolservice.entity.School;
+import com.hexagon.schoolservice.service.SchoolService;
 
 @CrossOrigin("*")
 @RequestMapping(value = "/school")
