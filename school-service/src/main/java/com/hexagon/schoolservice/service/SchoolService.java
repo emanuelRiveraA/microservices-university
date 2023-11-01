@@ -26,4 +26,4 @@ public class SchoolService {
 	public Optional<School> fetchSchoolById(int id) {
 		return schoolRepository.findById(id);
 	}
-}
+} 
