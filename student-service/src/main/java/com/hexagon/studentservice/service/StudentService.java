@@ -1,5 +1,6 @@
 package com.hexagon.studentservice.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,4 +49,12 @@ public class StudentService {
 		}
 	}
 	
+	public ResponseEntity<?> fetchStudents(){
+		List<Student> students = studentRepository.findAll();
+		if (students.size() > 0) {
+			return new ResponseEntity<List<Student>>(students, HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>("No Students", HttpStatus.NOT_FOUND);
+		}
+	}
 }
