@@ -27,3 +27,4 @@ public class SchoolService {
 		return schoolRepository.findById(id);
 	}
 } 
+ 
