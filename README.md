@@ -24,4 +24,10 @@ Guardado de estudiante en BD mongodb atlas
 Obtener un estudiante por su ID
 ![image](https://github.com/emanuelRiveraA/microservices-university/assets/64047865/e6e2095c-3367-472f-9a17-d32303c0ac2e)
 
-
+# Service Registry
+The need for a service registry in a microservice architecture arises due to the following reasons:
+1.Dynamic nature of microservices: Microservices can come and go dynamically, for example, due to scaling, upgrades, or failures. Service registry keeps track of this changing landscape and provides up-to-date information about the availability of each service.
+2.Load balancing: Service registry provides information about the current load of each microservice instance and can be used by a load balancer to distribute requests to the least loaded instance.
+3.Service discovery: Service registry helps microservices to discover each other and enables them to communicate with each other. This is important in a microservice architecture where services are decoupled and loosely coupled.
+4.Monitoring and management: Service registry can also be used to monitor the health of microservices and provide an overview of the system status.
+So the service registry is an essential component in a microservice architecture as it provides a centralized way to manage and coordinate the interactions between microservices.
