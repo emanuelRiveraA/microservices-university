@@ -35,7 +35,7 @@ public class StudentService {
 		Optional<Student> student = studentRepository.findById(id);
 		if (student.isPresent()) {
 			//peticion a school-service
-			School school = restTemplate.getForObject("http://localhost:8082/school"+student.get().getSchoolId(), School.class);
+			School school = restTemplate.getForObject("http://localhost:8082/school/"+student.get().getSchoolId(), School.class);
 			StudentResponse studentResponse = new StudentResponse(
 					student.get().getId(),
 					student.get().getName(),
