@@ -6,6 +6,8 @@ Prueba de añadir School
 ![image](https://github.com/emanuelRiveraA/microservices-university/assets/64047865/15a138bb-1e80-4b8b-a9e7-d533f0691934)
 
 Se guarda la escuela en la BD de postgres
+![image](https://github.com/emanuelRiveraA/microservices-university/assets/64047865/c781e9aa-dd2d-4f5e-b9e2-0f5cccd1bc59)
+
 
 Prueba de obtener schools
 
