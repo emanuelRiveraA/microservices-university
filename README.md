@@ -26,6 +26,7 @@ Obtener un estudiante por su ID
 
 # Service Registry
 The need for a service registry in a microservice architecture arises due to the following reasons:
+
 1.Dynamic nature of microservices: Microservices can come and go dynamically, for example, due to scaling, upgrades, or failures. Service registry keeps track of this changing landscape and provides up-to-date information about the availability of each service.
 
 2.Load balancing: Service registry provides information about the current load of each microservice instance and can be used by a load balancer to distribute requests to the least loaded instance.
