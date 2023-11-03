@@ -36,3 +36,6 @@ The need for a service registry in a microservice architecture arises due to the
 4.Monitoring and management: Service registry can also be used to monitor the health of microservices and provide an overview of the system status.
 
 So the service registry is an essential component in a microservice architecture as it provides a centralized way to manage and coordinate the interactions between microservices.
+
+# Eureka Server : This is a service registry server in the Netflix OSS (Open Source Software) suite
+And it is used to provide service discovery for microservices in a distributed environment. Eureka Server provides a registry of available microservices, allowing client microservices to discover and communicate with each other.
